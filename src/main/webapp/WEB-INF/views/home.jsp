@@ -5,10 +5,12 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!-- src/main/webapp/resources/ -->
+        <link rel="stylesheet" href="resources/style.css">
         <title>Home</title>
     </head>
-    <body>
-        <h1>Hello World!</h1>
-        <p>This is the homepage!</p>
+    <body class="fuente">
+        <h1 class="cabecera">Spring MVC </h1>
+        <p>Bienvenidos a Spring Web MVC sin configuración de Dispatche xml</p>
     </body>
 </html>
