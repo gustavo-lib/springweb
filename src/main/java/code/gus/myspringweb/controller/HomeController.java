@@ -15,4 +15,10 @@ public class HomeController {
 	public ModelAndView test(HttpServletResponse response) throws IOException{
 		return new ModelAndView("home");
 	}
+	
+	
+	@RequestMapping(value="/page2")
+	public ModelAndView pagina2(HttpServletResponse response) throws IOException{
+		return new ModelAndView("page2");
+	}
 }
