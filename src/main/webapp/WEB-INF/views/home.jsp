@@ -2,6 +2,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
    "http://www.w3.org/TR/html4/loose.dtd">
 
+
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -17,7 +18,7 @@
 	
 
 	<div class="container">
-	<button type="button" class="btn btn-primary">Nuevo</button>
+	<button type="button" class="btn btn-primary"> Nuevo</button>
 		<table class=" table text-center">
 			<thead class="thead-dark">
 				<tr>
@@ -35,8 +36,10 @@
 					<td>Otto</td>
 					<td>@mdo</td>
 					<td>
-						<button type="button" class="btn btn-danger">Eliminar</button>
-						<button type="button" class="btn btn-success">Editar</button>
+					<a href="page3" class="btn btn-danger">Eliminar</a>
+						
+						<!-- <button type="button" class="btn btn-success">Editar</button> -->
+						<a href="page2" class="btn btn-success">Editar</a>
 					</td>
 				</tr>
 				<tr>
@@ -45,8 +48,8 @@
 					<td>Thornton</td>
 					<td>@fat</td>
 					<td>
-						<button type="button" class="btn btn-danger">Eliminar</button>
-						<button type="button" class="btn btn-success">Editar</button>
+						<a href="page3" class="btn btn-danger">Eliminar</a>
+						<a href="page2" class="btn btn-success">Editar</a>
 					</td>
 				</tr>
 				<tr>
@@ -55,19 +58,19 @@
 					<td>the Bird</td>
 					<td>@twitter</td>
 					<td>
-						<button type="button" class="btn btn-danger">Eliminar</button>
-						<button type="button" class="btn btn-success">Editar</button>
+						<a href="page3" class="btn btn-danger">Eliminar</a>
+						<a href="page2" class="btn btn-success">Editar</a>
 					</td>
 				</tr>
 
 				<tr>
-					<th scope="row">3</th>
+					<th scope="row">4</th>
 					<td>Daiana</td>
 					<td>the Bird</td>
 					<td>@jilu</td>
 					<td>
-						<button type="button" class="btn btn-danger">Eliminar</button>
-						<button type="button" class="btn btn-success">Editar</button>
+						<a href="page3" class="btn btn-danger">Eliminar</a>
+						<a href="page2" class="btn btn-success">Editar</a>
 					</td>
 				</tr>
 

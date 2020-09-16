@@ -19,6 +19,11 @@ public class HomeController {
 	
 	@RequestMapping(value="/page2")
 	public ModelAndView pagina2(HttpServletResponse response) throws IOException{
-		return new ModelAndView("page2");
+		return new ModelAndView("editar");
+	}
+	
+	@RequestMapping(value="/page3")
+	public ModelAndView pagina3(HttpServletResponse response) throws IOException{
+		return new ModelAndView("eliminar");
 	}
 }

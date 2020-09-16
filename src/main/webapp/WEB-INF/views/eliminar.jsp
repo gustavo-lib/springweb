@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Hola desde la pagina 2</title>
+<title>Insert title here</title>
 </head>
 <body>
-
+	<h1> Eliminar </h1>
 </body>
 </html>
